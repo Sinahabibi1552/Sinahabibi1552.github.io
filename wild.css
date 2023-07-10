@@ -1,0 +1,19 @@
+h1{
+    color: rgb(162, 39, 5);
+    text-shadow: 5px 5px 7px rgb(0, 12, 222);
+    font-size: 1.4rem;
+        text-shadow: 3px 3px 6px rgb(68, 0, 227);
+        font-size: 1rem;
+        background-color: yellow;
+        border-radius: 2rem;
+        margin: 0px 6em;
+    
+}
+img{
+    width: 35em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    
+}

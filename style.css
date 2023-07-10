@@ -1,0 +1,49 @@
+#qw{
+    background-color: rgb(32, 85, 5);
+    color: orange;
+    font-family: monospace;
+    border-radius: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    border: 6px solid purple;
+}
+span{
+    color: dodgerblue;
+    font-family: monospace;
+}
+#re{
+    color: aliceblue;
+    display: inline-block;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+#tr{
+    color: azure;
+   
+    text-align: center;
+}
+@font-face {
+    font-family: vaziri;
+    src: url(vazir-font-v16.1.0/Vazir-Bold.ttf);
+}
+:root{
+    font-family: vaziri;
+}
+*{
+    cursor: pointer;
+}
+*::selection{
+    color: whitesmoke;
+    background-color: rgb(220, 20, 87);
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    line-height: 30px;
+}
+

@@ -1,0 +1,22 @@
+
+h1{
+    color: rgb(228, 9, 9);
+    text-shadow: 3px 3px 6px rgb(68, 0, 227);
+    font-size: 1rem;
+    background-color: yellow;
+    border-radius: 2rem;
+}
+body{
+    font-size: 0.75rem;
+}
+h4{
+    font-size: 0.5rem;
+}
+img{
+    width: 20em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2em;
+    
+}
