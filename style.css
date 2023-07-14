@@ -47,3 +47,39 @@ h4{
     line-height: 30px;
 }
 
+h2{
+    color: coral;
+    direction: rtl;
+    padding-right: 1rem;
+    text-align: center;
+}
+.iu{
+    display: inline-block;
+    color:magenta;
+}
+
+#xz{
+    direction: rtl;
+}
+ul li{
+   list-style: none;
+   color: rgb(68, 220, 21);
+   border-radius: 3rem;
+   display:flex; 
+   flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(219, 227, 105);
+    background-color: green;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    box-shadow: 3px 4px 5px rgb(218, 82, 155);
+}
+a:hover{
+    color: rgb(23, 213, 172);
+}
+a:active{
+    color: rgb(218, 152, 94);
+}
