@@ -34,7 +34,7 @@ ul li{
     display:flex; 
     flex-direction: column;
     margin-left: -2.4rem;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 .iu{
     font-size: 1rem;
