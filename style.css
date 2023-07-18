@@ -29,7 +29,7 @@ body{
 }
 @font-face {
     font-family: vaziri;
-    src: url(vazir-font-v16.1.0/Vazir-Bold.ttf);
+    src: url(Vazir-Bold.ttf);
 }
 :root{
     font-family: vaziri;
