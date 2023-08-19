@@ -3,9 +3,12 @@
     color: orange;
     font-family: monospace;
     border-radius: 1rem;
-    text-align: center;
-    font-size: 1rem;
     border: 6px solid purple;
+    display: flex;
+    justify-content:center;
+    padding-left: 1rem;
+    align-items: center;
+
 }
 span{
     color: dodgerblue;
@@ -20,9 +23,12 @@ h1{
     text-align: center;
 }
 body{
-    background-image: url(dark.png.png);
-    background-size: 100%;
+
+  background-image: url(dark.png.png);
+  background-size: 100%;
+  
 }
+
 #tr{
     color: azure;
    
@@ -51,7 +57,7 @@ h4{
 h2{
     color: coral;
     direction: rtl;
-    padding-right: 1rem;
+    
     text-align: center;
 }
 .iu{
@@ -70,17 +76,71 @@ ul li{
    flex-direction: column;
 }
 
-a{
+.atag{
     text-decoration: none;
     color: rgb(219, 227, 105);
     background-color: green;
     border-radius: 3rem;
-    padding: 0.2rem;
+    padding: 0.4rem;
     box-shadow: 3px 4px 5px rgb(218, 82, 155);
 }
-a:hover{
+.atag:hover{
     color: rgb(23, 213, 172);
 }
-a:active{
+.atag:active{
     color: rgb(218, 152, 94);
+}
+#d3{
+    color:deeppink;
+}
+.navbar{
+    position:relative;
+    z-index:999;
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content:space-betwee;
+
+}
+.navbar li{
+    display:inline-block;
+}
+.navbar li a{
+    color: aliceblue;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+   color: rgb(218, 146, 11);
+}
+
+.navbar ul ul{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.navbar ul ul li{
+    display: block;
+    /* transition: display .4s ease-in; */
+}
+.navbar li:hover + ul{
+    display: block;
+}
+.navbar ul ul li a:hover{
+    background: gray;
+}
+
+.hj{
+    color: rgb(191, 0, 255);
+}
+#tyd{
+    width: 190px;
+    background-image: url(Money_Cash.jpg);
 }
