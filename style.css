@@ -108,6 +108,9 @@ ul li{
 #child a{
     display: none;
 }
+#child a{
+      text-decoration: none;
+}
 #main :hover #child a{
     display: block;
     padding-top: 1rem;
@@ -127,7 +130,6 @@ ul li{
     background-color: black;
     border-radius: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border-bottom: none;
 }
 #child a{
     background-color: rgb(6, 18, 6);
