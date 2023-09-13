@@ -1,4 +1,7 @@
+
+
 #qw{
+
     background-color: rgb(32, 85, 5);
     color: orange;
     font-family: monospace;
@@ -93,48 +96,46 @@ ul li{
 #d3{
     color:deeppink;
 }
-.navbar{
-    position:relative;
-    z-index:999;
 
-}
-.navbar ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+   
+
+#main{
+    position:relative ;
     display: flex;
-    justify-content:space-betwee;
-
+   justify-content: center;
+  
 }
-.navbar li{
-    display:inline-block;
-}
-.navbar li a{
-    color: aliceblue;
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-.navbar li a:hover{
-   color: rgb(218, 146, 11);
-}
-
-.navbar ul ul{
-    position: absolute;
-    top: 100%;
+#child a{
     display: none;
 }
-.navbar ul ul li{
+#main :hover #child a{
     display: block;
-    /* transition: display .4s ease-in; */
+    padding-top: 1rem;
 }
-.navbar li:hover + ul{
-    display: block;
+
+#ab{
+    padding: 0.5rem;
+    color: rgb(5, 72, 216);
+    box-shadow: 2px 2px 5px purple;
+    background-color: black;
+    border-radius: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.navbar ul ul li a:hover{
-    background: gray;
+#child a{
+    background-color: rgb(6, 18, 6);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    color: darkorange;
+}
+#child a:hover{
+    color:cyan;
+    box-shadow: 2px 2px 5px rgb(154, 35, 35);
+}
+#b6{
+    color: yellow;
+    -webkit-text-stroke: 1px rgb(148, 14, 56);
 }
 
 .hj{
@@ -143,4 +144,8 @@ ul li{
 #tyd{
     width: 190px;
     background-image: url(Money_Cash.jpg);
+    
 }
+
+
+
