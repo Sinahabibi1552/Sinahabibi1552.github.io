@@ -113,6 +113,13 @@ ul li{
     padding-top: 1rem;
 }
 
+
+/* #po:hover{
+    width:40rem;
+} */
+
+
+
 #ab{
     padding: 0.5rem;
     color: rgb(5, 72, 216);
@@ -140,6 +147,8 @@ ul li{
 
 .hj{
     color: rgb(191, 0, 255);
+    border-radius: 1rem;
+    padding: 0.7rem;
 }
 #tyd{
     width: 190px;
