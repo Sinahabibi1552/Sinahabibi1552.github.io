@@ -32,3 +32,6 @@ ul li {
 #qw{
     font-size: 1.3rem;
 }
+#b6{
+    -webkit-text-stroke: 1px rgb(148, 14, 56);
+}
