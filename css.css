@@ -45,3 +45,6 @@ ul li{
 .navbar ul li a{
     font-size: 0.63rem;
 }
+#b6{
+    -webkit-text-stroke: 0.7px rgb(148, 14, 56);
+}
