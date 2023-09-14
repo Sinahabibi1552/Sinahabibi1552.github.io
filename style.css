@@ -97,7 +97,10 @@ ul li{
     color:deeppink;
 }
 
-   
+#ab{
+    border: none;
+   }
+
 
 #main{
     position:relative ;
